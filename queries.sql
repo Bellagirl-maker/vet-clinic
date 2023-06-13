@@ -7,15 +7,22 @@ SELECT * FROM animals WHERE neutered = true;
 SELECT * FROM animals WHERE name <> 'Gabumon';
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
--- update the animals table by setting the species column to unspecified
 BEGIN TRANSACTION;
 UPDATE animals SET species = 'unspecified';
+SELECT * FROM animals;
 ROLLBACK;
--- Update the animals table by setting the species column to digimon for all animals that have a name ending in mon
-UPDATE animals SET species = 'unspecified' WHERE name LIKE '%mon';
--- Update the animals table by setting the species column to pokemon for all animals that don't have species already set
+SELECT * FROM animals;
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+SELECT * FROM animals;
 COMMIT;
+SELECT * FROM animals;
+
+BEGIN TRANSACTION;
+DELETE FROM animals;
+SELECT * FROM animals;
+ROLLBACK;
+SELECT * FROM animals;
 
 BEGIN TRANSACTION;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
