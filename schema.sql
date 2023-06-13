@@ -7,3 +7,5 @@
  weight_kg decimal,
  primary key(id)
  );
+ 
+ ALTER TABLE animals ADD COLUMN species VARCHAR(50);
