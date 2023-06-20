@@ -23,6 +23,9 @@
 # 📖 Vet Clinic <a name="about-project"></a>
 
 **Vet clinic** is a Database of animals, their owners, clinic employees, and visits to the clinic.
+![vet_clinic db diagram](https://github.com/Bellagirl-maker/vet-clinic/assets/61124047/922d4605-ff1b-4578-b8d5-8c8d903f7fd3)
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
