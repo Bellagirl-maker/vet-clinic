@@ -88,6 +88,12 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo)
 
+👤**Daniel Kigozi**
+
+- GitHub: [Daniel-Kigozi](https://github.com/Daniel-Kigozi)
+- Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
+- LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
